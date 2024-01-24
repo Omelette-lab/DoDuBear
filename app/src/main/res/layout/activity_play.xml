@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_videoname"
+        android:text="享受大自然~"
+        android:textStyle="bold"
+        android:textColor="#92FF9800"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/my_videoview"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:background="@drawable/btn_todo"
+        android:layout_marginTop="20dp"
+        android:onClick="back"/>
+</LinearLayout>
+
+
